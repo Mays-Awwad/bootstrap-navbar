@@ -1,0 +1,22 @@
+:root{
+    --mainColor:#161E54;
+    --secColor:#F16D34;
+    
+}
+
+.bg-secColor{
+    background-color: var(--secColor);
+}
+
+
+.text-mainColor{
+color: var(--mainColor);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color:var(--mainColor);
+}
+
+.nav-link:focus, .nav-link:hover{
+    color:red;
+}
